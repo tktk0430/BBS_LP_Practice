@@ -1,0 +1,60 @@
+@import url(ress/ress.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body{
+    font-family: 'Noto Serif', serif;
+}
+
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    border: 1px solid;
+    display: flex;
+}
+
+.title{
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+}
+
+.title span{
+    font-size: 20px;
+}
+.header-contents{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-contents li{
+    height: 60px;
+    width: 180px;
+    border: 0.5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 5px;
+}
+
+.header-contents a{
+    display: inline;
+    font-size: 12px;
+}
+
+.catchcopy{
+    width: 1000px;
+}
+.catchcopy p{
+    text-align: center;
+}
